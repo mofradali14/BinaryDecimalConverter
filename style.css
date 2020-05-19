@@ -1,0 +1,68 @@
+
+
+body {
+    background: linear-gradient(#44573F,#30413E, #708145);
+    background-attachment: fixed;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-family: 'Concert One', cursive;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px inset orange;
+    border-radius: 15px;
+    padding: 50px;
+    width: 50%;
+    max-width: 500px;
+    margin-top: 8%;
+}
+
+p {
+    font-size: 16pt;
+    color: white;
+}
+
+input[type=text] {
+    border-style: solid;
+    border-radius: 12px;
+    border: inset 1px white;
+    background-color: white;
+    height: 35px;
+    font-size: 14pt;
+    padding-left: 5px;
+    font-family: 'Concert One', cursive;
+    font-weight: 100;
+    color: rgb(80, 56, 11)
+}
+
+input[type=button] {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: #fcfcfc27;
+    width: 125px;
+    height: 35px;
+    font-family: 'Concert One', cursive;
+    font-size: 12pt;
+}
+
+input[type=button]:hover {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    border: inset;
+    background-color: orange;
+    width: 125px;
+    height: 35px;
+    font-family: 'Concert One', cursive;
+    font-size: 12pt;
+}

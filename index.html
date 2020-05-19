@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary - Decimal Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b3848a439.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <div class="container">
+            <h1>Binary <i class="fas fa-angle-double-left"></i><i class="fas fa-angle-double-right"></i> Decimal</h1>
+            <h3>Convert Between Binary and Decimal Form: </h3>
+            <p>Binary: <input type="text" id="binaryInput" onchange="binaryToDecimal()" placeholder="Binary"></p>
+            <p>Decimal: <input type="text" id="decimal" onchange="decimalToBinary()" placeholder="Decimal"></p>
+            <p><input type="button" value="Convert" onclick="binaryToDecimal()"></p>
+        </div>
+        <script src="app.js"></script>
+
+</body>
+</html>
